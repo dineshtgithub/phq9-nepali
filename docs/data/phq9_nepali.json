@@ -1,0 +1,51 @@
+{
+  "instrument": "PHQ-9",
+  "locale": ["ne-NP", "en-US"],
+  "introduction": {
+    "ne": "गत २ हप्ताभित्र तपाईंलाई निरन्तर मन खिन्न वा उदास लाग्ने, रमाउन सक्दिन भन्ने अनुभव भएको छ भने हामी केही प्रश्न सोध्नेछौं। कृपया आफ्नो अनुभवअनुसार जवाफ दिनुहोस्।",
+    "en": "Now we will be talking about your experience during the past two weeks, where you may have continuously felt sad in your heart-mind and unhappy. Please answer the following questions based on your experience."
+  },
+  "response_options": [
+    { "value": 0, "ne": "कतिपनि भएन", "en": "Not at all" },
+    { "value": 1, "ne": "कहिलेकाहीं भयो", "en": "Sometimes" },
+    { "value": 2, "ne": "धेरै जस्तो भयो", "en": "Usually" },
+    { "value": 3, "ne": "सधैं जस्तो भयो", "en": "Always" }
+  ],
+  "items": [
+    { "id": "phq9_1", "ne": "गत २ हप्तामा तपाईं अन्य व्यक्तिसँग जस्तै रमाउन नसक्ने वा काम गर्न मन नलाग्ने कतिको भएको थियो?", "en": "During the past two weeks, compared to other people, how much have you felt that you are not able to be happy or do not enjoy doing work/activities?" },
+    { "id": "phq9_2", "ne": "गत २ हप्तामा तपाईंलाई निराश हुने, निराशाजनक वा असहाय महसुस हुने जस्तो कतिको भएको थियो?", "en": "During the past two weeks, how much have you felt frustrated, despairing, or incapable of doing anything?" },
+    { "id": "phq9_3", "ne": "गत २ हप्तामा तपाईंलाई निद्रासँग समस्या हुने, शान्ति र आरामसँग सुत्न नसक्ने वा धेरै निदाउ लाग्ने कतिको भएको थियो?", "en": "During the past two weeks, how much have you had problems with your sleep, such as not being able to sleep properly and peacefully, or feeling sleepier than before?" },
+    { "id": "phq9_4", "ne": "गत २ हप्तामा तपाईंलाई थकाइ महसुस हुने वा शक्ति/ऊर्जा कम भएको कतिको भएको थियो?", "en": "During the past two weeks, how much have you felt tired and lacking energy?" },
+    { "id": "phq9_5", "ne": "गत २ हप्तामा तपाईंलाई खानामा मन नलाग्ने वा धेरै खान मन लाग्ने कतिको भएको थियो?", "en": "During the past two weeks, how much have you lost your appetite or experienced increased appetite?" },
+    { "id": "phq9_6", "ne": "गत २ हप्तामा तपाईं आफैंलाई दोष दिने वा असफलताको कारण आफू वा परिवारलाई अपमानित बनाएको महसुस गर्ने कतिको भएको थियो?", "en": "During the past two weeks, how much have you blamed yourself for something or felt that you have let you and your family down?" },
+    { "id": "phq9_7", "ne": "गत २ हप्तामा तपाईंलाई ध्यान केन्द्रित गर्न गाह्रो हुने (जस्तै: टिभी हेर्दा, समाचारपत्र पढ्दा, पकाउँदा वा काम गर्दा) कतिको भएको थियो?", "en": "During the past two weeks, how much have you been having difficulty being able to focus or concentrate?" },
+    { "id": "phq9_8", "ne": "गत २ हप्तामा अरुले तपाईंलाई बिस्तारै बोल्ने, ढिलो हिँड्ने, अनावश्यक हिँडडुल गर्ने वा बेचैन देखिने भनेर टिप्पणी गर्ने कतिको भएको थियो?", "en": "During the past two weeks, how much have people commented that you have been talking very softly, walking slowly, moving around needlessly, or acting restless?" },
+    { "id": "phq9_9", "ne": "गत २ हप्तामा तपाईंलाई आफैंलाई चोट पुर्याउने, मर्ने वा आत्महत्या गर्ने विचार आउने कतिको भएको थियो?", "en": "During the past two weeks, how much have you had the feeling of hurting yourself, dying, or committing suicide?", "is_safety_item": true }
+  ],
+  "scoring": {
+    "total_score": "sum(items[1-9])",
+    "cutoffs": [
+      { "range": "0-4", "label_ne": "न्यून", "label_en": "Minimal" },
+      { "range": "5-9", "label_ne": "सामान्य", "label_en": "Mild" },
+      { "range": "10-14", "label_ne": "मध्यम", "label_en": "Moderate" },
+      { "range": "15-19", "label_ne": "गम्भीर", "label_en": "Moderately Severe" },
+      { "range": "20-27", "label_ne": "अत्यन्त गम्भीर", "label_en": "Severe" }
+    ]
+  },
+  "interpretation": {
+    "ne": {
+      "minimal": "तपाईंको स्कोर न्यून छ। चिन्ता कायम रहे स्वास्थ्यकर्मी सँग सल्लाह लिनुहोस्।",
+      "mild": "हल्का स्तरका लक्षण देखिन्छन्। आवश्यक परे सहयोग खोज्नुहोस्।",
+      "moderate": "मध्यम स्तरका लक्षण देखिन्छन्। कृपया स्वास्थ्यकर्मी वा मनोस्वास्थ्य सेवामा सम्पर्क गर्नुहोस्।",
+      "moderately_severe": "गम्भीर लक्षण देखिन्छन्। तुरुन्तै स्वास्थ्य सेवामा सम्पर्क गर्नुहोस्।",
+      "severe": "अत्यन्त गम्भीर लक्षण देखिन्छन्। तत्काल स्वास्थ्य सेवा वा आपतकालीन सहयोग खोज्नुहोस्।"
+    },
+    "en": {
+      "minimal": "Your score is minimal. If symptoms persist, consider consulting a health worker.",
+      "mild": "Mild symptoms are present. Seek support if needed.",
+      "moderate": "Moderate symptoms are present. Please consult a health worker or mental health services.",
+      "moderately_severe": "Moderately severe symptoms. Seek professional help as soon as possible.",
+      "severe": "Severe symptoms. Immediately seek medical or emergency mental health support."
+    }
+  }
+}
