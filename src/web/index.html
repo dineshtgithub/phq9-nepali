@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PHQ-9 Nepali Depression Self-Test</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1 id="title">PHQ-9 Nepali Depression Self-Test</h1>
+    <div class="toolbar">
+      <button id="langToggle" type="button">नेपालीमा स्विच गर्नुहोस्</button>
+    </div>
+  </header>
+
+  <section id="intro" class="intro"></section>
+
+  <form id="form" class="form"></form>
+
+  <div class="actions">
+    <button id="submitBtn" type="button">Calculate Score</button>
+    <button id="resetBtn" type="button">Reset</button>
+  </div>
+
+  <section id="result" class="result" aria-live="polite"></section>
+
+  <footer class="footer">
+    <p class="disclaimer">
+      This self-test is educational and non-diagnostic. If you are in crisis or
+      have thoughts of self-harm, seek emergency help immediately.
+    </p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
