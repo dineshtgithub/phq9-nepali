@@ -2,7 +2,7 @@
   "instrument": "PHQ-9",
   "locale": ["ne-NP", "en-US"],
   "introduction": {
-    "ne": "यो उदासिनता (डिप्रेसन) को स्व–मूल्यांकन (PHQ-9) फारम हो। यसले पछिल्ला २ हप्तामा देखिएका लक्षणहरूबारे तपाईंको अनुभव जाँच्न मद्दत गर्छ। प्रत्येक ९ प्रश्नका लागि ०–३ मध्ये आफूलाई सबैभन्दा मिल्ने एउटा विकल्प छान्नुहोस् (करिब २–३ मिनेट लाग्छ)। अन्त्यमा कुल स्कोर र गम्भीरताको स्तर देखाइनेछ, र स्कोर मध्यम वा गम्भीर भएमा आवश्यक मार्गदर्शन दिइनेछ। यदि अहिले तपाईंलाई आत्म–हत्या वा आफैँलाई हानि पुर्‍याउने विचार आएको छ भने तुरुन्तै स्थानीय आपतकालीन सेवामा वा विश्वसनीय स्वास्थ्यकर्मीसँग सम्पर्क गर्नुहोस्।",
+    "ne": "यो उदासिनता (डिप्रेसन) को स्व–मूल्यांकन (PHQ-9) फारम हो। यसले पछिल्ला २ हप्तामा देखिएका लक्षणहरूबारे तपाईंको अनुभव जाँच्न मद्दत गर्छ। प्रत्येक प्रश्नका लागि कतिपनि भएन, कहिलेकाहीं भयो, धेरै जस्तो भयो, र सधैं जस्तो भयो मध्ये आफूलाई सबैभन्दा मिल्ने एउटा विकल्प छान्नुहोस् (करिब २–३ मिनेट लाग्छ)। अन्त्यमा कुल स्कोर र गम्भीरताको स्तर देखाइनेछ, र स्कोर मध्यम वा गम्भीर भएमा आवश्यक मार्गदर्शन दिइनेछ। यदि अहिले तपाईंलाई आत्म–हत्या वा आफैँलाई हानि पुर्‍याउने विचार आएको छ भने तुरुन्तै स्थानीय आपतकालीन सेवामा वा विश्वसनीय स्वास्थ्यकर्मीसँग सम्पर्क गर्नुहोस्।",
     "en": "This is a depression self-assessment (PHQ-9) form. It helps you check your symptoms from the last 2 weeks. For each of the 9 items, select the single option (0–3) that best fits you (about 2–3 minutes). At the end you’ll see your total score and severity, and guidance if your score is moderate or severe. This tool is for education/screening only and does not provide a diagnosis. If you are having thoughts of self-harm or suicide right now, seek immediate help from local emergency services or a trusted health professional."
   },
   "response_options": [
