@@ -4,7 +4,7 @@ const state = { data: null };
 const el = (sel) => document.querySelector(sel);
 
 async function loadData() {
-  const res = await fetch("../data/phq9_nepali.json");
+  const res = await fetch("./data/phq9_nepali.json?v=2");
   state.data = await res.json();
 }
 
